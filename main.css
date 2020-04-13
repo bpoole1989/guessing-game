@@ -1,1 +1,21 @@
 /* Write your CSS code in this file */
+
+body {
+    text-align: center;
+    margin: auto;
+}
+
+#guess-list {
+    list-style: none;
+    padding: 0;
+}
+
+.guess {
+    display: inline;
+    text-decoration: red line-through;
+}
+
+#hint {
+    border: solid black 2px;
+    width: 90px;
+}

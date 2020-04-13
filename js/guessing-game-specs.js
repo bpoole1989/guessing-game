@@ -30,7 +30,7 @@ describe('shuffle function', () => {
     const unshuffledArray = [20, 50, 70];
     const shuffledArray = shuffle(unshuffledArray);
     expect(shuffledArray.length).toBe(3);
-    expect(shuffledArray === shuffledArray).toEqual(true);
+    expect(shuffledArray === unshuffledArray).toEqual(true);
   });
 });
 
